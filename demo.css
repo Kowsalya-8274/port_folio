@@ -1,0 +1,24 @@
+  
+    
+div{
+    background-color:aqua;
+    height:100vh;
+}
+body{
+    display: flex;
+    height:100vh;
+}
+div{
+    background-color:red;
+    min-width: 200px;
+    min-height:200 px; 
+    margin:10px;
+}
+
+@media all and (min-width:1024px){
+    div{
+        background-color: black;
+    }
+}
+
+
